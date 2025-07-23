@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -60,9 +59,7 @@
       <input type="hidden" name="business" value="cecilelucia812@gmail.com">
       <input type="hidden" name="item_name" value="fondation ZAIR">
       <input type="hidden" name="amount" value="2.00">
-      <input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="return" value="https://fondation-zair.com/succes">
-      <input type="hidden" name="cancel_return" value="https://fondation-zair.com/annulation">
+      <input type="hidden" name="currency_code" value="EUR">
       <input type="submit" value="Faire un don via PayPal">
     </form>
   </div>
