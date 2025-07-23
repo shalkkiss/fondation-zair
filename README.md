@@ -34,7 +34,8 @@
       color: #666;
     }
 
-    input[type="submit"] {
+    input[type="submit"],
+    .telegram-btn {
       background-color: #0070ba;
       color: white;
       padding: 12px 24px;
@@ -42,10 +43,19 @@
       border-radius: 5px;
       font-size: 16px;
       cursor: pointer;
+      margin-top: 10px;
     }
 
     input[type="submit"]:hover {
       background-color: #005fa3;
+    }
+
+    .telegram-btn {
+      background-color: #0088cc;
+    }
+
+    .telegram-btn:hover {
+      background-color: #0075b5;
     }
   </style>
 </head>
@@ -59,9 +69,14 @@
       <input type="hidden" name="business" value="cecilelucia812@gmail.com">
       <input type="hidden" name="item_name" value="fondation ZAIR">
       <input type="hidden" name="amount" value="2.00">
-      <input type="hidden" name="currency_code" value="EUR">
+      <input type="hidden" name="currency_code" value="USD">
       <input type="submit" value="Faire un don via PayPal">
     </form>
+
+    <!-- BOUTON TELEGRAM -->
+    <a href="https://t.me/TON_BOT_USERNAME" target="_blank">
+      <button class="telegram-btn">Contacter le bot Telegram</button>
+    </a>
   </div>
 </body>
 </html>
